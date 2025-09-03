@@ -1,3 +1,97 @@
+console.log("Hello Again");
+
+var Intruduce = [20, "Erfan", "Saadati", "Isfahan"];
+
+var name = Intruduce[1];
+var age = Intruduce[0];
+var lastname = [2];
+var city = Intruduce[3];
+
+console.log("Name:" + name);
+console.log("Age:" + age);
+console.log("Lastname:" + lastname);
+console.log("City:" + city);
+// 
+
+console.log(Intruduce);
+
+function Sum(a, b) {
+  return a + b;
+}
+
+var c = Sum(1, 2);
+console.log(c);
+var d = c;
+
+var c = Sum(2, 2);
+console.log(c);
+var d = d + c;
+console.log(d);
+
+function Intruduce2(name, age, lastname, city) {
+  return (
+    "Name:" + name + " Age:" + age + " Lastname:" + lastname + " City:" + city
+  );
+}
+
+var e = Intruduce2("Erfan", 20, "Saadati", "Isfahan");
+console.log(e);
+
+function Intruduce3() {
+  var name = Intruduce[1];
+  var lastname = Intruduce[2];
+  var age = Intruduce[0];
+  console.log(age, name, lastname);
+}
+
+Intruduce3();
+
+var name2 = "Erfan";
+var age2 = 20;
+var lastname2 = "Khoram";
+
+// switch (true) {
+//   case Intruduce[0] == age2:
+//     console.log("سن درست است " + ":" + age2);
+//     break;
+
+//   case Intruduce[1] == name2:
+//     console.log("نام  درست است " + ";" + name2);
+//     break;
+//   case Intruduce[2] == lastname2:
+//     console.log("فامیلی درست است" + ":" + lastname);
+//     break;
+
+//   default:
+//     console.log("تمامی اطلاعات اشتباه است ");
+//     break;
+// }
+
+// if(Intruduce[0] == age2){
+//     console.log("سن درست است " + age2)
+//     if(Intruduce[1] == name2){
+//         console.log("نام درست است " + name2)
+//         if(Intruduce[2] == lastname){
+//             console.log("نام خانوادکی درست است " + lastname2)
+//         }
+//          else{
+//             console.log("نام خانوادگی درست نیست ")
+//         }
+//     }
+//     else{
+//         console.log("نام درست نیست")
+//     }
+// }
+// else{
+//     console.log("تمامی اطلاعات درست نیست ")
+// }
+
+var n = 100
+for(var i = 0; i <= n; i++){
+    console.log(i)
+}
+
+
 var List =[5,1,2,4,3,];
 var List2 = [6,7,8,9]
 
