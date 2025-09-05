@@ -174,3 +174,99 @@ console.log(filterlist.sort())
     
 // },0);
 
+
+
+var car = {
+    "Compony" : 'bmw' ,
+    "Model" : '528i' , 
+    "Year" : '2005' , 
+    "kit" : 'M',
+}
+
+var  details = {
+    "Colors" : ['Black' , 'Blue' , 'Green'] ,
+    "Rings" : ['Sport' , 'Normal']
+}
+
+
+
+
+var carlist = []
+carlist.push(car.Compony)
+console.log(carlist)
+
+console.log("Compoony name : " + car.Compony + " Model name : " + car.Model + " Kit type : " + car.kit) 
+
+
+
+Person2 = {
+    'NAME' : 'erfan',
+    'LASTNAME' : 'saadati',
+    // 'p-age' : '20',
+    // 'p-height' : '180',
+    // 'p-city' : 'isfahan'
+}
+
+function Person(AGE , HEIGHT) {
+    // this.name = Name
+    // this.lastname = Lastname
+    // this.Age = Age
+    // this.height = Height
+    // this.city = City
+
+    // تابع سازنده object
+
+    console.log(this.NAME + " " + this.LASTNAME + " " + HEIGHT + " " + AGE)
+}
+
+// APPLY برای پاس دادن آبجکت به سمت تابع استفاده میشود 
+// فرق اپلای با کال و بایند اینه که به صورت لیست ایتم های خارج از ابجکت رو برمیگردونه
+// Person.apply(Person2 , [20 , 180])
+
+// CALL برای پاس دادن آبجکت به سمت تابع استفاده میشود 
+// Person.call(Person2,20,180)
+
+
+// BIND برای پاس دادن آبجکت به سمت تابع استفاده میشود 
+// فرق بایند با دوتای قبلی در پرانتز آخر بایند است که باید باشد تا کار دهد
+// Person.bind(Person2,20,180)()
+
+
+
+// var Arsalan = new Person('Arsalan' , 'Khoram' , '26' , '180' , 'isfahan');
+// Arsalan.Age = 26
+// Arsalan.Lastname = "Khoram"
+// Arsalan.Name = "Arsalan"
+// Arsalan.city = "Tehran"
+// Arsalan.Heigt = 180
+
+
+// console.log(Arsalan)
+
+var sum1 = 20
+var sum2 = 30
+
+function sum3(){
+     
+}
+
+console.log(sum3)
+
+// document.getElementById('body_title').style.color = 'green';
+// document.getElementById('erfan').style.backgroundColor = 'red';
+// document.getElementById('erfan').style.fontSize = '40px';
+
+// alert('hi how are u ')
+// alert تنها یک پیغام نشان میدهد به کاربر 
+
+// confirm('do u want to comtinue')
+// confirm  یک پیغام نشان میدهد و یک تاییدیه از کاربر میگیرد 
+
+// prompt('enter your name')
+// promt یک پیغام نشان کاربر میدهد و مقداری را از کاربر میگیرد 
+
+ var emme = document.getElementById('click')
+
+ emme.onclick = function(event){
+    event.target.style.backgroundColor = 'red';
+ }
